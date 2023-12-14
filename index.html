@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Главная</title>
+</head>
+<body>
+    <div class="sheel">
+        <header class="header">
+            <div class="container">
+                <nav class="nav">
+                    <div class="logo_nav">
+                        <a href="index.html" class="logo_title">лица</a>
+                        <img src="img/candidates_lable.png" alt="" class="logo_img">
+                        <a href="index.html" class="pre_title_header">Кандидаты</a>
+                        <div class="nav_link">
+                            <a href="cand.html" class="link_nav">Найти кандидата</a>
+                            <a href="#" class="link_nav">Попасть в базу</a>
+                            <a href="#" class="link_nav">О сервисе</a>
+                            <a href="dsds.html" class="link_nav">Портал</a>
+                        </div>
+                    </div>
+                        <a href="index.php" class="cabinet">
+                       <div class="cabinet">
+                        <a href="index.php" class="link_cabinet">Личный кабинет</a>
+                        <img src="<?= $_SESSION['user']['avatar'] ?>" width="300px" alt="">
+                       </div>
+                    </a>
+                </nav>
+            </div>
+        </header>
+        <main class="main">
+            <div class="container">
+            <div class="block_flex">
+                <div class="block_text_title">
+                    <div class="title_main">
+                        <h1>Нанимайте проверенных</h1>
+                        <p>кандидатов</p>
+                    </div>
+                    <div class="decription_main">
+                        <p>Мы уже со всеми провели собеседования <br> и подтверждаем их профессионализм</p>
+                    </div>
+                    <div class="btn_main">
+                        <a href="#" class="condidata">Выбрать кандидата</a>
+                        <a href="#" class="baza">Попасть в базу</a>
+                    </div>
+                </div>
+                <div class="img_main">
+                    <img src="img/main_image.svg" alt="">
+                </div>
+            </div>
+            </div>
+        </main>
+        <div class="services">
+            <div class="container">
+            <div class="title_services">
+                <p>Выберите направление работы</p>
+            </div>
+            <div class="rows">
+                <a href="#" class="link_services">
+                    <div class="block_services">
+                        <img src="img/direction_icon.svg" alt="" class="icons_services" width="50px" height="50px">
+                        <p class="decr_services">Маркетинг</p>
+                    </div>
+                </a>
+                <a href="#" class="link_services"><div class="block_services">
+                    <img src="img/icon_3.png" alt="" class="icons_services"   width="50px" height="50px">
+                    <p class="decr_services">Разработка</p>
+                </div></a>
+                <a href="#" class="link_services"><div class="block_services">
+                    <img src="img/icon_2.png" alt="" class="icons_services" width="50px" height="50px">
+                    <p class="decr_services">Аналитика</p>
+                </div></a>
+               <a href="#" class="link_services"> <div class="block_services">
+                <img src="img/icon_4.png" alt="" class="icons_services"  width="50px" height="50px">
+                <p class="decr_services">Комьюнити</p>
+            </div></a>
+            <a href="#" class="link_services">    <div class="block_services">
+                <img src="img/icon_5.png" alt="" class="icons_services"  width="50px" height="50px">
+                <p class="decr_services">Дизайн</p>
+            </div></a>
+                <a href="#" class="link_services"><div class="block_services">
+                    <img src="img/icon_6.png" alt="" class="icons_services"  width="50px" height="50px">
+                    <p class="decr_services">Продажи</p>
+                </div></a>
+                <a href="#" class="link_services"><div class="block_services">
+                    <img src="img/icon_8.png" alt="" class="icons_services"  width="50px" height="50px">
+                    <p class="decr_services">Контент</p>
+                </div></a>
+              <a href="#" class="link_services">  <div class="block_services">
+                <img src="img/icon_9.png" alt="" class="icons_services"  width="50px" height="50px">
+                <p class="decr_services">Топ-менеджмент</p>
+            </div></a>
+            </div>
+        </div>
+    </div>
+    <div class="block_se">
+        <div class="plus_services">
+            <div class="container">
+                <div class="block_plus">
+                    <div class="title_plus">
+                        <p>Почему работодатели <br> выбирают ЛИЦА?</p>
+                    </div>
+                    <div class="plus_proverka">
+                       <div class="title_proverka">
+                        <img src="img/yes.svg" alt="" class="yes_img">
+                        <p>Проверка компетенций</p>
+                       </div>
+                        <div class="decr_proverka">
+                            <p>Всех кандидатов с нашей стороны собеседуют не рекрутера, а эксперты в своих областях.</p>
+                            <p>По результаты мы составляем справку
+                                о кандидате, чтобы вы могли узнать его лучше.</p>
+                        </div>
+                        <div class="plus_proverka">
+                           <div class="title_proverka">
+                            <img src="img/yes.svg" alt="" class="yes_img">
+                            <p>Сотни кандидатов по подписке</p>
+                           </div>
+                           <div class="decr_proverka">
+                            <p>Вы сможете самостоятельно связываться
+                                с кандидатами – все они дали согласие на это.</p>
+                           </div>
+    
+                           <div class="plus_proverka">
+                            <div class="title_proverka">
+                             <img src="img/yes.svg" alt="" class="yes_img">
+                             <p>Еженедельное обновление базы</p>
+                            </div>
+                            <div class="decr_proverka">
+                                <p>В рамках сервиса ЛИЦА.Работа мы проводим
+                                    по несколько десятков собеседований еженедельно, и пополняем базу новыми справками по лучшим кандидатам.</p>
+                               </div>
+                    </div>
+            </div>
+            </div>
+        </div>
+        </div>
+        </div>
+        <div class="plus_proverkas">
+            <div class="price_skk">
+                <p class="lof_price">4 900</p>
+            </div>
+            <div class="container">
+                <p class="title_plus_pre">Кандидаты по подписке</p>
+                <div class="price_proverka">
+                    <p class="price_proverkas">4900 ₽ в месяц</p>
+                    <p class="skidka">В 10-100 раз ниже<br> стоимости любого подбора</p>
+                </div>
+                <div class="btn_proverka">
+                    <a href="#" class="link_proverka">Выбрать кандидата</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="baza_conditate">
+        <div class="container">
+        <div class="title_baza">
+            <p>Как выглядит база кандидатов</p>
+        </div>
+        <div class="block_setka_baza">
+            <div class="block_condita">
+                <div class="block_avatar_condita_skilss">
+                   <div class="skils_condita">
+                    <p class="skils_1">part-time</p>
+                    <p class="skils_2">full-time</p>
+                   </div>
+                    <img src="img/Avatar.png" alt="" width="104px" height="104px">
+                </div>
+                <div class="name_profes">
+                    <p class="name_condita">Анциферов Владимир</p>
+                    <p class="profes">Директор по маркетингу </p>
+                 </div>
+                 <div class="experience_candita">
+                    <p>Опыт: более 13 лет</p>
+                 </div>
+                 <div class="Salary_candita">
+                    <p>Зарплата: 200 тыс. ₽</p>
+                 </div>
+                 <div class="btn_candita">
+                    <a href="#" class="link_candita">Посмотреть справку</a>
+                 </div>
+            </div>
+            <div class="block_condita">
+                <div class="block_avatar_condita_skilss">
+                    <div class="skils_condita">
+                     <p class="skils_2">full-time</p>
+                    </div>
+                     <img src="img/avatar_2.png" alt="" width="104px" height="104px">
+                 </div>
+                 <div class="name_profes">
+                    <p class="name_condita">Сикорская Анна</p>
+                    <p class="profes">Аналитик</p>
+                 </div>
+                 <div class="experience_candita">
+                    <p>Опыт: более 13 лет</p>
+                 </div>
+                 <div class="Salary_candita">
+                    <p>Зарплата: 200 тыс. ₽</p>
+                 </div>
+                 <div class="btn_candita">
+                    <a href="#" class="link_candita">Посмотреть справку</a>
+                 </div>
+            </div>
+            <div class="block_condita">
+                <div class="block_avatar_condita_skilss">
+                    <div class="skils_condita">
+                     <p class="skils_1">part-time</p>
+                     <p class="skils_2">full-time</p>
+                    </div>
+                     <img src="img/avatar_3.png" alt="" width="104px" height="104px">
+                 </div>
+                 <div class="name_profes">
+                    <p class="name_condita">Демидова Дарья</p>
+                    <p class="profes">Брендмейкер </p>
+                 </div>
+                 <div class="experience_candita">
+                    <p>Опыт: более 13 лет</p>
+                 </div>
+                 <div class="Salary_candita">
+                    <p>Зарплата: 200 тыс. ₽</p>
+                 </div>
+                 <div class="btn_candita">
+                    <a href="#" class="link_candita">Посмотреть справку</a>
+                 </div>
+            </div>
+            <div class="block_condita">
+                <div class="block_avatar_condita_skilss">
+                    <div class="skils_condita">
+                     <p class="skils_2">full-time</p>
+                    </div>
+                     <img src="img/avatar_4.png" alt="" width="104px" height="104px">
+                 </div>
+                 <div class="name_profes">
+                    <p class="name_condita">Харисов Евгений</p>
+                    <p class="profes">Директор по развитию бизнеса </p>
+                 </div>
+                 <div class="experience_candita">
+                    <p>Опыт: более 13 лет</p>
+                 </div>
+                 <div class="Salary_candita">
+                    <p>Зарплата: 200 тыс. ₽</p>
+                 </div>
+                 <div class="btn_candita">
+                    <a href="#" class="link_candita">Посмотреть справку</a>
+                 </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div class="form_">
+        <div class="container">
+           <div class="setka_form">
+            <div class="img_form">
+                <img src="img/bg_form.svg" alt="">
+            </div>
+            <form action="post" class="form">
+              <div class="form_form">
+                <div class="title_form">
+                    <p class="title_fo">Подписаться на обновления базы</p>
+                    <p class="decr_form">Мы будет присылать вам информацию каждую неделю,
+                        по каким сферам у нас появились кандидаты.</p>
+                </div>
+                <div class="data_input">
+                    <input type="name" placeholder="Ваше имя"required >
+                    <input type="email" placeholder="Email" required >
+                    <input type="tel" required  minlength="11" maxlength="11" placeholder="Номер телефона">
+                </div>
+                <button class="btn_form" type="submit">Подписаться</button>
+              </div>
+                <div class="block_za">
+                    <p>Отправка данной формы означает согласие с <a href="#"> Пользовательским соглашением</a> и <a href="#">Политикой конфиденциальности</a></p>
+                </div>
+            </form>
+           </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="rows_footer">
+                <div class="link_setka">
+                    <ul>
+                        <li class="title_text_footer">ЛИЦА.Кандидаты</li>
+                        <li><a class="link_decr_footer" href="#">Найти кандидата</a></li>
+                        <li><a class="link_decr_footer" href="#">Попасть в базу</a></li>
+                        <li><a class="link_decr_footer" href="#">О сервисе</a></li>
+                    </ul>
+                </div>
+                <div class="link_setka">
+                    <ul>
+                        <li class="title_text_footer">ЛИЦА.Работа</li>
+                        <li><a class="link_decr_footer" href="#">Рекрутинг</a></li>
+                        <li><a class="link_decr_footer" href="#">Конструктор подбора</a></li>
+                        <li><a  class="link_decr_footer"href="#">Аналитика подбора</a></li>
+                    </ul>
+                </div>
+                <div class="link_setka">
+                    <ul>
+                        <li class="title_text_footer">О портале</li>
+                        <li><a  class="link_decr_footer"href="#">Поддержка</a></li>
+                        <li><a class="link_decr_footer" href="#">Обновления</a></li>
+                        <li><a  class="link_decr_footer"href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="line_footer">
+            <div class="block_avtor">
+                <p class="name_copany">ООО «ЛИЦА» </p>
+            <div class="block_company">
+                <p class="recr_footer">
+                    <a href="#">Реквизиты</a>
+                </p>
+                <p class="prova_footer">
+                   <a href="#"> Правовая информация</a>
+                </p>
+            </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

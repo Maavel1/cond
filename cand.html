@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/cand.css">
+    <title>Найти</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo_nav">
+                    <a href="index.html" class="logo_title">лица</a>
+                    <img src="img/candidates_lable.png" alt="" class="logo_img">
+                    <a href="index.html" class="pre_title_header">Кандидаты</a>
+                    <div class="nav_link">
+                        <a href="cand.html" class="link_nav">Найти кандидата</a>
+                        <a href="#" class="link_nav">Попасть в базу</a>
+                        <a href="#" class="link_nav">О сервисе</a>
+                        <a href="#" class="link_nav">Портал</a>
+                    </div>
+                </div>
+                    <a href="index.php" class="cabinet">
+                   <div class="cabinet">
+                    <a href="index.php" class="link_cabinet">Личный кабинет</a>
+                    <img src="img/user.png" alt="Avataer" class="avatar_img" width="30px" height="30px">
+                   </div>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <div class="main">
+     <div class="container max">
+       <div class="rows_card">
+        <div id="filters">
+          <div class="filters_inner">
+            <div class="title_folters">
+                <h1>Фильтры</h1>
+            </div>
+            <hr class="line">
+            <label class="input_title" for="category">Пол</label>
+            <select id="category">
+                <option value="all">Все</option>
+                <option value="women">Женщины</option>
+                <option value="men">Мужчины</option>
+            </select>
+            <div class="input_price">
+            <label for="" class="input_title">Зарплата</label>
+            <input class="inptu_" type="number" id="minPrice" placeholder="от">
+           
+            <input type="number" id="maxPrice" placeholder="до">
+            </div>
+            <button class="btn_filttres" onclick="filterProducts()">Применить</button>
+          </div>
+        </div>
+        <div id="product-list">
+            <div class="product_card">    <div class="block_condita">
+                <div class="block_avatar_condita_skilss">
+                   <div class="skils_condita">
+                    <p class="skils_1">part-time</p>
+                    <p class="skils_2">full-time</p>
+                   </div>
+                    <img src="../img/avatar_2.png" alt="" width="104px" height="104px">
+                </div>
+                <div class="name_profes">
+                    <p class="name_condita">Сикорская Анна</p>
+                    <p class="profes">Директор по маркетингу </p>
+                 </div>
+                 <div class="experience_candita">
+                    <p>Опыт: более 13 лет</p>
+                 </div>
+                 <div class="Salary_candita">
+                    <p>Зарплата:1000€</p>
+                 </div>
+                 <div class="btn_candita">
+                    <a href="undefined" class="link_candita"  >Посмотреть справку</a>
+                 </div>
+            </div></div>
+            
+        </div>
+       </div>
+       <div class="show_rane">
+        <button type="button" class="show_rane_btn">показать еще</button>
+        
+        
+       </div>
+     </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="rows_footer">
+                <div class="link_setka">
+                    <ul>
+                        <li class="title_text_footer">ЛИЦА.Кандидаты</li>
+                        <li><a class="link_decr_footer" href="#">Найти кандидата</a></li>
+                        <li><a class="link_decr_footer" href="#">Попасть в базу</a></li>
+                        <li><a class="link_decr_footer" href="#">О сервисе</a></li>
+                    </ul>
+                </div>
+                <div class="link_setka">
+                    <ul>
+                        <li class="title_text_footer">ЛИЦА.Работа</li>
+                        <li><a class="link_decr_footer" href="#">Рекрутинг</a></li>
+                        <li><a class="link_decr_footer" href="#">Конструктор подбора</a></li>
+                        <li><a  class="link_decr_footer"href="#">Аналитика подбора</a></li>
+                    </ul>
+                </div>
+                <div class="link_setka">
+                    <ul>
+                        <li class="title_text_footer">О портале</li>
+                        <li><a  class="link_decr_footer"href="#">Поддержка</a></li>
+                        <li><a class="link_decr_footer" href="#">Обновления</a></li>
+                        <li><a  class="link_decr_footer"href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="line_footer">
+            <div class="block_avtor">
+                <p class="name_copany">ООО «ЛИЦА» </p>
+            <div class="block_company">
+                <p class="recr_footer">
+                    <a href="#">Реквизиты</a>
+                </p>
+                <p class="prova_footer">
+                   <a href="#"> Правовая информация</a>
+                </p>
+            </div>
+            </div>
+        </div>
+    </footer>
+    <!-- <script src="js/none.js"></script> -->
+    <script src="js/main.js"></script> 
+     <script src="js/show-rane.js"></script>
+</body>
+</html>

@@ -1,0 +1,132 @@
+
+.rows_card {
+  display: flex;
+  gap: 32px;
+  margin-bottom: 20px;
+}
+
+.max {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.filters_inner {
+  display: flex;
+  flex-direction: column;
+  border-radius: 12px;
+  background: var(--white, #FFF);
+  padding: 40px 20px;
+}
+
+#filters {
+  width: 300px;
+  position: sticky;
+  top: 0;
+    
+}
+
+
+#product-list {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-row-gap: 32px;
+    grid-column-gap: 32px;
+}
+
+
+
+.product_card {
+  overflow-x: hidden;
+  display: flex;
+}
+
+.title_folters h1 {
+  color: var(--gray-900, #111827);
+  text-align: center;
+  font-family: Calibri;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 111.111% */
+  border-bottom: 1px solid var(--gray-300, #D1D5DB);
+  padding-bottom: 20px;
+}
+
+
+.input_price {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input_price {
+  margin: 40px 0px 40px 0px;
+}
+
+select {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid black;
+  outline: none;
+  border-radius: 10px;
+}
+
+option {
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+input {
+  border-radius: 24px;
+  border: 1px solid var(--gray-300, #D1D5DB);
+  background: var(--white, #FFF);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.05);
+  padding: 12px 18px;
+}
+
+.input_title {
+  color: var(--gray-900, #111827);
+  font-family: Calibri;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 133.333% */
+}
+
+.btn_filttres {
+  border-radius: 26px;
+  background: #F1DF6F;
+  padding: 12px 32px;
+  border: none;
+}
+
+
+/* show rane */ 
+
+.show_rane {
+  display: flex;
+  justify-content: right;
+}
+
+.show_rane_btn {
+  color: var(--gray-900, #111827);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  background-color: transparent;
+  border-bottom: 1px dotted red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.product_card:nth-child(n+7) {
+  display: none;
+}
+
+
+
+
+
